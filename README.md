@@ -1,6 +1,6 @@
 # Hello World [![bitHound Score][bithound-img]][bithound-url]
 
-A PhoneGap Hello World template
+A PhoneGap Hello World template JAJAJA
 
 ## Usage
 
