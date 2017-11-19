@@ -7,32 +7,29 @@ var $$ = Dom7;//acortar el codigo javascript
 var welcomescreen_slides = [
   {
     id: 'slide0',
-    title: 'Slide 0', // optional
-    picture: '<div class="tutorialicon">♥</div>',
-    text: 'Bienvenido a SearchSector, con esta apliación usted podrá saber a donde ir cuando quiera salir de fiesta'
+    title: 'Hola buenas, Bienvenido a e-commerce!', // optional
+    picture: '<img src="http://galaxyworld.ir/wp-content/uploads/2017/05/google-maps-new-interface1-320x220.jpg">',
+    text: 'con esta aplicación usted podrá saber a donde ir cuando quieras salir'
   },
   {
     id: 'slide1',
-    title: 'Slide 1', // optional
-    picture: '<div class="tutorialicon">✲</div>',
-    text: 'This is slide 2'
+    picture: '<img src="https://3.bp.blogspot.com/-wdAonlry0To/WafHu8ehuNI/AAAAAAAAISw/3DzDdr9NLzkC24ra3NoC9_6OajtuqThXwCLcBGAs/s1600/flora.jpg">',
+    text: 'Podrás encontrar el lugar que buscas'
   },
   {
     id: 'slide2',
-    title: 'Slide 2', // optional
-    picture: '<div class="tutorialicon">♫</div>',
-    text: 'This is slide 3'
+    picture: '<img src="https://www.whatifspecialist.com/wp-content/uploads/2012/03/bossy.jpg">',
+    text: 'Donde quiera que estés te indicará las mejores opciones'
   },
   {
     id: 'slide3',
-    //title: 'NO TITLE',
-    picture: '<div class="tutorialicon">☆</div>',
-    text: 'Thanks for reading! Enjoy this app.<br><br><a onclick="welcomescreen.close();" href="#">End Tutorial</a>'
+    picture: '<img src="https://my.datasphere.com/files/mydatasphere/styles/ls_tile/public/1430173647_ThinkstockPhotos-454388475.jpg">',
+    text: 'Disfruta de la aplicación!.<br><br><a onclick="welcomescreen.close();" href="#">Comenzar app</a>'
   }
 ];
 
 var options = {
-  'bgcolor': '#0da6ec',
+  'bgcolor': 'blue',
   'fontcolor': '#fff',
   'closeButtonText':'Omitir',
   'open':false
